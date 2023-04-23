@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:layout_alignParentStart="true"
+                android:layout_marginHorizontal="@dimen/item_margin_horizontal"
+                android:layout_marginVertical="@dimen/item_margin_vertical"
+                android:textSize="@dimen/normal_text_size"
+                />
+
+            <TextView
+                android:id="@+id/questionNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/questionNum"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="@dimen/item_margin_horizontal"
+                android:layout_marginVertical="@dimen/item_margin_vertical"
+                android:textSize="@dimen/normal_text_size"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+
+                    android:layout_margin="@dimen/blue_layout_margin"
+                    android:background="@drawable/layout_style">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="@dimen/title_text_size"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question"
+                        android:textSize="@dimen/normal_text_size"/>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_height_land"
+                        android:src="@drawable/dog"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/roundedImageView"
+                        android:layout_margin="@dimen/image_margin"
+                        android:contentDescription="@string/description"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:gravity="center"
+                >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/firstOption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:background="@drawable/button_style"
+                    android:layout_marginHorizontal="@dimen/item_margin_horizontal"
+                    android:layout_marginVertical="@dimen/item_margin_vertical"
+                    android:textAllCaps="false"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/secondOption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:background="@drawable/button_style"
+                    android:layout_marginHorizontal="@dimen/item_margin_horizontal"
+                    android:layout_marginVertical="@dimen/item_margin_vertical"
+                    android:textAllCaps="false"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/thirdOption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:background="@drawable/button_style"
+                    android:layout_marginHorizontal="@dimen/item_margin_horizontal"
+                    android:layout_marginVertical="@dimen/item_margin_vertical"
+                    android:textAllCaps="false"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/fourthOption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:background="@drawable/button_style"
+                    android:layout_marginHorizontal="@dimen/item_margin_horizontal"
+                    android:layout_marginVertical="@dimen/item_margin_vertical"
+                    android:textAllCaps="false"/>
+                <TextView
+                    android:id="@+id/quesTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timer"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textColor="@color/black"
+                    android:layout_marginVertical="@dimen/text_margin_vertical"
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Trivia Game</string>
+    <string name="questionOne">This is the largest continent and is located east of Europe.</string>
+    <string name="questionTwo">This continent covered with ice and is located at the south pole.</string>
+    <string name="questionThree">This continent has the largest deserts and has a many large animals.</string>
+    <string name="questionFour">This continent is located west of Asia and is the second smallest continent.</string>
+    <string name="questionFive">This is the smallest continent and is an island completely surrounded by water on all sides.</string>
+    <string name="questionSix">This continent is south of North America and has the largest variety of plants and animals.</string>
+    <string name="questionSeven">This continent is above South America.</string>
+    <string name="score_text">0</string>
+    <string name="question_nb">Question 1 out of 7</string>
+    <string name="next">Next</string>
+    <string name="exit">Exit</string>
+    <string name="judgment_toast">Wrong Answer</string>
+    <string name="judgment_toastTwo">Correct Answer +2!</string>
+    <string name="good">Great Job!</string>
+    <string name="bad">Hard Luck!</string>
+    <string name="send_score">Send scores</string>
+    <string name="I_scored_string_Guess">I scored in the Guess the animal Game: </string>
+    <string name="I_scored_string_Continents">I scored in the Continents Game: </string>
+    <string name="score_history">Score History</string>
+    <string name="game_one">Game one</string>
+    <string name="game_two">Game two</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="game_one_button">Play Animals Game</string>
+    <string name="game_two_button">Play Contents game</string>
+    <string name="title">Guess The Animal By Picture</string>
+    <string name="question">Can you guess this animal?</string>
+    <string name="score">Score:</string>
+    <string name="questionNum">Question:</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="description">Animal picture</string>
+    <string name="game_over">Game over!</string>
+    <string name="go_to_main_page">Return home</string>
+    <string name="timer">Time left: </string>
+    <string-array name="dog_list">
+        <item>Hyena</item>
+        <item>Dog</item>
+        <item>Wolf</item>
+        <item>Fox</item>
+    </string-array>
+    <string-array name="beaver_list">
+        <item>Woodpecker</item>
+        <item>Beaver</item>
+        <item>Pigeon</item>
+        <item>Peacock</item>
+    </string-array>
+    <string-array name="buffalo_list">
+        <item>Buffalo</item>
+        <item>Ox</item>
+        <item>Mammoth</item>
+        <item>Rhinoceros</item>
+    </string-array>
+    <string-array name="wolf_list">
+        <item>Fox</item>
+        <item>Dog</item>
+        <item>Alligator</item>
+        <item>Wolf</item>
+    </string-array>
+    <string-array name="eagle_list">
+        <item>Hen</item>
+        <item>Duck</item>
+        <item>Eagle</item>
+        <item>Whale</item>
+    </string-array>
+    <string-array name="wallaby_list">
+        <item>Rabbit</item>
+        <item>Kangaroo</item>
+        <item>Koala</item>
+        <item>Wallaby</item>
+    </string-array>
+    <string-array name="turtle_list">
+        <item>Lizard</item>
+        <item>Fish</item>
+        <item>Turtle</item>
+        <item>Ostrich</item>
+    </string-array>
+    <string-array name="lion_list">
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Bear</item>
+        <item>Monkey</item>
+    </string-array>
+    <string-array name="zebra_list">
+        <item>Donkey</item>
+        <item>Zebra</item>
+        <item>Giraffe</item>
+        <item>Horse</item>
+    </string-array>
+    <string-array name="crocodile_list">
+        <item>Flamingo</item>
+        <item>Hippopotamus</item>
+        <item>Penguin</item>
+        <item>Crocodile</item>
+    </string-array>
+
+</resources>
