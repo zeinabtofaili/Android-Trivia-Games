@@ -1,0 +1,1 @@
+"Guess the Animal" and "Guess the Continent" are two fun games in this Android app. Test your knowledge by identifying animals or guessing continents based on clues. Built as part of a Mobile Development course, the code is available for exploring and customizing.
